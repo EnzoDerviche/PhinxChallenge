@@ -46,11 +46,7 @@ Con esto creamos las tablas automáticamente y damos de baja el servidor con ctr
      ```bash
      npm run dev
      ```
-
-     ```bash
-     npm run start:dev
-     ```
-
+     
 ¡Con estos pasos, el proyecto debería estar corriendo correctamente!
 
 ## Requisitos
