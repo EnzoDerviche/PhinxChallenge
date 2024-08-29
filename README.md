@@ -21,7 +21,7 @@ Sigue estos pasos para levantar el proyecto en tu entorno local:
    ```
 
  
-2. **Levantar proyecto para crear tablas **:
+1. **Crear tablas automáticamente**:
    
 Desde la carpeta `api`, corre el comando:
 
@@ -29,7 +29,7 @@ Desde la carpeta `api`, corre el comando:
      npm run start:dev
      ```
    
-Con esto creamos las tablas automáticamente y damos de baja el servidor con ctrl+c.
+Una vez realizado esto damos de baja el servidor con ctrl+c.
 
 3. **Ejecutar las migraciones de la base de datos**:
 
