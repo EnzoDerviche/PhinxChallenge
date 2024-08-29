@@ -1,0 +1,56 @@
+.content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50vw;
+}
+
+.titles{
+  height: 20%;
+  color: black;
+}
+
+
+.titles h2{
+  margin: 2rem 0 1rem 0;
+}
+
+.allPokemons{
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+}
+
+.allPokemons ul{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 5px;
+  justify-content: space-between
+}
+
+.allPokemons li{
+  -webkit-box-shadow: -1px 1px 6px 4px rgba(0,0,0,0.14);
+  -moz-box-shadow: -1px 1px 6px 4px rgba(0,0,0,0.14);
+  box-shadow: -1px 1px 6px 4px rgba(0,0,0,0.14);
+  list-style: none;
+  border-radius: 10px;
+  height: fit-content;
+  margin-bottom: 2rem;
+}
+
+.winner{
+  height: 20%;
+  padding: 2rem 0;
+}
+
+.battleZone{
+  height: 60%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 425px) {
+  .allPokemons ul{
+    justify-content: center;
+  }
+}

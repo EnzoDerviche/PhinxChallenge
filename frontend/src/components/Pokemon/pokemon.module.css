@@ -1,0 +1,9 @@
+.card{
+  width: 10rem;
+  height: 12rem;
+  padding-bottom: 1rem;
+}
+
+.card div{
+  object-fit: contain !important;
+}
