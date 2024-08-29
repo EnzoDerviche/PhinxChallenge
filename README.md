@@ -25,9 +25,9 @@ Sigue estos pasos para levantar el proyecto en tu entorno local:
 3. 
 Desde la carpeta `api`, corre el comando:
 
-   ```bash
-   npm run start:dev
-   ```
+     ```bash
+     npm run start:dev
+     ```
    
 Con esto creamos las tablas automáticamente y damos de baja el servidor con ctrl+c.
 
@@ -47,6 +47,11 @@ Con esto creamos las tablas automáticamente y damos de baja el servidor con ctr
      npm run dev
      ```
      
+     - Para el **backend**, desde la carpeta `api` ejecuta nuevamente:
+     
+     ```bash
+     npm run start:dev
+     ```
 ¡Con estos pasos, el proyecto debería estar corriendo correctamente!
 
 ## Requisitos
