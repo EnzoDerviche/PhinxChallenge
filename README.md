@@ -22,7 +22,7 @@ Sigue estos pasos para levantar el proyecto en tu entorno local:
 
  
 2. **Levantar proyecto para crear tablas **:
-3. 
+   
 Desde la carpeta `api`, corre el comando:
 
      ```bash
@@ -31,7 +31,7 @@ Desde la carpeta `api`, corre el comando:
    
 Con esto creamos las tablas automáticamente y damos de baja el servidor con ctrl+c.
 
-2. **Ejecutar las migraciones de la base de datos**:
+3. **Ejecutar las migraciones de la base de datos**:
 
    Desde la carpeta `api`, corre el comando:
 
@@ -39,7 +39,7 @@ Con esto creamos las tablas automáticamente y damos de baja el servidor con ctr
    npm run runMigration
    ```
 
-3. **Levantar el proyecto**:
+4. **Levantar el proyecto**:
 
    - Para el **frontend**, desde la carpeta `frontend` ejecuta:
 
