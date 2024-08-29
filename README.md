@@ -20,6 +20,17 @@ Sigue estos pasos para levantar el proyecto en tu entorno local:
    npm install
    ```
 
+ 
+2. **Levantar proyecto para crear tablas **:
+3. 
+Desde la carpeta `api`, corre el comando:
+
+   ```bash
+   npm run start:dev
+   ```
+   
+Con esto creamos las tablas automáticamente y damos de baja el servidor con ctrl+c.
+
 2. **Ejecutar las migraciones de la base de datos**:
 
    Desde la carpeta `api`, corre el comando:
@@ -35,8 +46,6 @@ Sigue estos pasos para levantar el proyecto en tu entorno local:
      ```bash
      npm run dev
      ```
-
-   - Para el **backend**, desde la carpeta `api` ejecuta:
 
      ```bash
      npm run start:dev
